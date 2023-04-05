@@ -1,11 +1,15 @@
 .title{
     text-align: center;
-    color: dimgray;
+    color: gray;
+    border: 5px solid black;
+    background: rgba(20, 22, 13, 0.281);
 }
 
 .links{
     text-align: center;
     color: dimgray;
+    border: 5px solid black;
+    background: rgba(20, 22, 13, 0.281);
 }
 
 ul{
@@ -25,18 +29,26 @@ body{
 .image-one{
     height: 50%;
     max-width: 25%;
-    padding-right: 10px;
+    border: solid 3px grey;
 }
 
 .image-two{
     height: 50%;
     max-width: 25%;
+    border: solid 3px grey;
 }
 
 .image-three{
     height: 50%;
     max-width: 25%;
-    padding-left: 10px;
+    border: solid 3px grey;
+}
+
+.play{
+    margin-left: 45%;
+    background-color: green;
+    height: 100px;
+    width: 200px;
 }
 
 .play:hover{
@@ -46,4 +58,12 @@ body{
     height: 100px;
     width: 200px;
     border-radius: 15px;
+}
+
+.footer{
+
+}
+
+.sidebar{
+margin-left: 90%;
 }
