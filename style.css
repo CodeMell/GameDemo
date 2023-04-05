@@ -1,1 +1,49 @@
+.title{
+    text-align: center;
+    color: dimgray;
+}
 
+.links{
+    text-align: center;
+    color: dimgray;
+}
+
+ul{
+    text-align: center;
+    padding-right: 20px;
+}
+
+body{
+    background-image: url("./img/Post-Apocalyptic+City-andreilemezec-crop.jpg");
+}
+
+.images{
+    text-align: center;
+    border: 10px dimgray;
+}
+
+.image-one{
+    height: 50%;
+    max-width: 25%;
+    padding-right: 10px;
+}
+
+.image-two{
+    height: 50%;
+    max-width: 25%;
+}
+
+.image-three{
+    height: 50%;
+    max-width: 25%;
+    padding-left: 10px;
+}
+
+.play:hover{
+    align-content: center;
+    background-color: green;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+}
