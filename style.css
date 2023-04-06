@@ -1,13 +1,13 @@
 .title{
     text-align: center;
-    color: gray;
+    color: rgb(152, 152, 152);
     border: 5px solid black;
     background: rgba(20, 22, 13, 0.281);
 }
 
 .links{
     text-align: center;
-    color: dimgray;
+    color: rgb(157, 156, 156);
     border: 5px solid black;
     background: rgba(20, 22, 13, 0.281);
 }
@@ -15,6 +15,8 @@
 ul{
     text-align: center;
     padding-right: 20px;
+    color: khaki;
+    list-style-type: none;
 }
 
 body{
@@ -66,4 +68,31 @@ body{
 
 .sidebar{
 margin-left: 90%;
+}
+p {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: blue;
+}
+#devNames{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: right;
+}
+section {
+    color: blue;
+}
+iframe {
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+.hero-video{
+    text-align: center;
+    opacity: 1;
+    filter: blur(0px);
 }
